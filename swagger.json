@@ -9,7 +9,7 @@
       "url": "https://opensource.org/licenses/MIT"
     }
   },
-  "host": "push-notification-demo-server.herokuapp.com/",
+  "host": "push-notification-demoserver.herokuapp.com/",
   "basePath": "",
   "tags": [
     {
