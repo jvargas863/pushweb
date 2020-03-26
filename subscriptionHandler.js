@@ -3,11 +3,11 @@ var crypto = require("crypto");
 const webpush = require("web-push");
 
 const vapidKeys = {
-  privateKey: "bdSiNzUhUP6piAxLH-tW88zfBlWWveIx0dAsDO66aVU",
-  publicKey: "BIN2Jc5Vmkmy-S3AUrcMlpKxJpLeVRAfu9WBqUbJ70SJOCWGCGXKY-Xzyh7HDr6KbRDGYHjqZ06OcS3BjD7uAm8"
+  privateKey: "IKJp3nnLd6jr1FCo8fiF8v0BaWHcgJGd6xtPJr4eTqA",
+  publicKey: "BDoqplXS5nr4vyIO3l7eapm2IN7xmFB9rTTy1aVyiKzI0V3mTrgMU7jooD-uuiHv1ZB_iuwReqdwCRCmgcU2b8A"
 };
 
-webpush.setVapidDetails("mailto:example@yourdomain.org", vapidKeys.publicKey, vapidKeys.privateKey);
+webpush.setVapidDetails("mailto:juanvargas007@hotmail.com", vapidKeys.publicKey, vapidKeys.privateKey);
 
 function createHash(input) {
   const md5sum = crypto.createHash("md5");
